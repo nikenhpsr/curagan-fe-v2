@@ -17,6 +17,8 @@ const AppointmentCard = ({ appointment }: any) => {
         },
       })
       .then((res) => res.data);
+
+  // Use useSWR unconditionally
   const { data, error, isLoading } = useSWR(
     `${API_PATIENT}/${appointment.patientID}`,
     fetcher,
@@ -52,7 +54,7 @@ const AppointmentCard = ({ appointment }: any) => {
             className="object-contain"
           />
         </div>
-        {isLoading ? <span>...</span> : <span>{data.name}</span>}
+        {isLoading ? <span>Loading...</span> : <span>{data.name}</span>}
       </div>
 
       {/* Accept / Reject */}

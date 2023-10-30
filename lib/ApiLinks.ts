@@ -13,3 +13,5 @@ export const API_MY_APPOINTMENT =
   'https://curagan-api.nikenhpsr.site/appointments/my-appointments';
 export const API_APPOINTMENT_HISTORY =
   'https://curagan-api.nikenhpsr.site/appointments/history';
+export const API_MY_APPOINTMENTS_ID = (id: string) =>
+  `https://curagan-api.nikenhpsr.site/appointments/my-appointments/${id}`;

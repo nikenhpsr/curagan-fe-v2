@@ -7,7 +7,7 @@ export const LayoutMenu = () => {
 
   const doesRoleExist = localStorage.getItem('role') !== null;
   const role = localStorage.getItem('role');
-  const doctorId = localStorage.getItem('doctorId'); // Added this line to get doctorId from localStorage
+  const doctorId = localStorage.getItem('doctorId');
 
   const handleLogout = () => {
     localStorage.removeItem('token');
@@ -25,7 +25,6 @@ export const LayoutMenu = () => {
           <>
             <MenuLink href="/akun" name="Akun" />
             <MenuLink href={`/jadwal/${doctorId}`} name="Jadwal" />{' '}
-            {/* Updated this line */}
             <MenuLink href="/daftarAppointment" name="Daftar Appointment" />
             <div className="w-full h-[1px] bg-gray-600"></div>
           </>
