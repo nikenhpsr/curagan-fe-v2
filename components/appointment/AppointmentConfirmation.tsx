@@ -1,3 +1,4 @@
+import { API_APPOINTMENT } from '@/lib/ApiLinks';
 import axios from 'axios';
 import Link from 'next/link';
 import { Dispatch, SetStateAction, useState } from 'react';
@@ -6,29 +7,41 @@ interface IAppointmentConfirmation {
   selectedDate: string;
   doctorId: string;
   setDisplaySuccessAppointmentCard: Dispatch<SetStateAction<boolean>>;
-  handleAccept: () => Promise<void>; // Add handleAccept prop
 }
 
 export const AppointmentConfirmation = ({
   selectedDate,
   doctorId,
   setDisplaySuccessAppointmentCard,
-  handleAccept, // Include the handleAccept prop
 }: IAppointmentConfirmation) => {
   const [disableSubmit, setDisableSubmit] = useState(false);
 
   const handleSubmit = async () => {
     const role = localStorage.getItem('role');
 
-    // Ignore appointment if role is doctor
-    if (role === 'doctor') return;
+    // ignore appointment if role is doctor
+    if (role == 'doctor') return;
 
     setDisableSubmit(true);
 
     try {
-      // Call the handleAccept function, which is the same logic as the appointment creation.
-      // This will accept the appointment.
-      await handleAccept();
+      const response = await axios.post(
+        API_APPOINTMENT,
+        {
+          patientID: localStorage.getItem('userId'),
+          doctorID: doctorId,
+          datetime: selectedDate,
+          status: 'Pending',
+        },
+        {
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: `Bearer ${localStorage.getItem('token')}`,
+          },
+        },
+      );
+
+      setDisplaySuccessAppointmentCard(true);
     } catch (error) {
       setDisableSubmit(false);
       console.log(error);

@@ -1,0 +1,511 @@
+[33mcommit 5de8e60223b2207ce096f6c90d822e5a114e16a5[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: nikenhpsr <niken18003@mail.unpad.ac.id>
+Date:   Fri Oct 27 23:30:54 2023 +0700
+
+    feat(appointment index.tsx): add submitted notification
+
+[33mcommit 9989966dfa32f03db6b663198e3705050f403cd3[m
+Merge: bc96d3c 194dc83
+Author: Okky Anggoro <anggorookky@gmail.com>
+Date:   Sat Sep 30 02:52:24 2023 +0800
+
+    Merge pull request #30 from curagan/janjiTemu
+    
+    feat(jadwal): add appointmentcard component and janji-temu page
+
+[33mcommit 194dc83bcfb0c8af6431efa17d0c1de70ebd3293[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Sat Sep 30 02:50:58 2023 +0800
+
+    feat(jadwal): add appointmentcard component and janji-temu page
+
+[33mcommit bc96d3c49b792ce18e4cc8e3f8aec7e0e0b5f93a[m
+Merge: 5d85d5c 9023ca8
+Author: Indra Setiadhi P <60643181+indrasetiadhi4@users.noreply.github.com>
+Date:   Sat Sep 30 00:10:03 2023 +0700
+
+    Merge pull request #29 from curagan/profile-page
+    
+    Profile page
+
+[33mcommit 9023ca839ed69b450ecbd82cbb194a6aedf258a2[m
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Sat Sep 30 00:06:01 2023 +0700
+
+    fix: fix infinite skeleton when image url is empty
+
+[33mcommit 54660043f2c42d7d24fc848512cb926667e10f32[m
+Merge: 0ac8516 5d85d5c
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Fri Sep 29 23:57:35 2023 +0700
+
+    Merge branch 'main' of https://github.com/curagan/curagan-frontend into profile-page
+
+[33mcommit 5d85d5c0239b36bc64322e43ae963c0989ca9ba3[m
+Merge: 5fa2d3b 8bf8fe3
+Author: Indra Setiadhi P <60643181+indrasetiadhi4@users.noreply.github.com>
+Date:   Fri Sep 29 23:52:48 2023 +0700
+
+    Merge pull request #27 from curagan/profile-page
+    
+    Profile page
+
+[33mcommit 0ac8516708e61e5441da6d1f4367dfd40e7efa00[m
+Merge: 8bf8fe3 5fa2d3b
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Fri Sep 29 23:51:46 2023 +0700
+
+    Merge branch 'main' of https://github.com/curagan/curagan-frontend into profile-page
+
+[33mcommit 8bf8fe34a3a8c1782a31645359a915ae0dbd6ed2[m
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Fri Sep 29 23:49:40 2023 +0700
+
+    feat(akun/edit): add reserved image if image error
+
+[33mcommit 5fa2d3b71229f3d5c78017e56d5749d63cba3268[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Sat Sep 30 00:44:47 2023 +0800
+
+    style: change font weight of day names in calendar component and doctor name in jadwal page
+
+[33mcommit a4a84680c541fa7bdf2783c8f83fc777d1fac4bb[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Sat Sep 30 00:35:58 2023 +0800
+
+    style: improve button styling and add default option for dropdowns
+
+[33mcommit 9fd1c29aedd7d4a0056bcfc6f023bac21acb9410[m
+Merge: 0a1dbc6 93a188e
+Author: Okky Anggoro <anggorookky@gmail.com>
+Date:   Fri Sep 29 23:57:21 2023 +0800
+
+    Merge pull request #28 from curagan/calendar
+    
+    docs: add prerequisite section to docs
+
+[33mcommit 93a188e8d6d8509fe77254690897177a269d4296[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Fri Sep 29 23:55:21 2023 +0800
+
+    docs: add prerequisite section to docs
+
+[33mcommit fccc5d3f1d05d863e36124c082089a1dd769f2e4[m
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Fri Sep 29 22:52:30 2023 +0700
+
+    feat(akun/edit): add hooks for display modal when success or failed updating data
+
+[33mcommit 0a1dbc6d12aa976ee6cd954b7b80d91a8aef03c0[m
+Merge: aa062d5 df215e9
+Author: Okky Anggoro <anggorookky@gmail.com>
+Date:   Fri Sep 29 23:47:37 2023 +0800
+
+    Merge pull request #26 from curagan/calendar
+    
+    Calendar
+
+[33mcommit df215e97f6feff523297c47d9e2ef07af982dd34[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Fri Sep 29 23:44:14 2023 +0800
+
+    feat: add dropdown close functionality when clicking outside the dropdown
+
+[33mcommit 5cce30010125977d870aeea50ebc8b04507c0ab9[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Fri Sep 29 23:30:51 2023 +0800
+
+    fix(calendarcomponent): fix default value for time field
+
+[33mcommit b989c6b7e4cbddc53648be2335704c5efe63520f[m
+Merge: 8083c2c aa062d5
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Fri Sep 29 22:23:43 2023 +0700
+
+    Merge branch 'main' of https://github.com/curagan/curagan-frontend into profile-page
+
+[33mcommit 8083c2c72ac04a7072a470a9c5dc5bbdd05eda86[m
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Fri Sep 29 22:23:20 2023 +0700
+
+    fix: remove akun/test page
+
+[33mcommit ac7053c845d88f6e0980b49f618ac9beac3065b0[m
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Fri Sep 29 22:20:51 2023 +0700
+
+    feat(akun/edit): create modals for succcess and failed updating user data
+
+[33mcommit 673018e898d23ff179a2632ab7bcf49767892178[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Fri Sep 29 22:41:16 2023 +0800
+
+    feat: update time field to be an array in schedule type
+
+[33mcommit aa062d5beaa5c387b714afd69f55cc69750e37fd[m
+Merge: 1598891 03c35cc
+Author: DoriMoll <53027082+DerianMelvin@users.noreply.github.com>
+Date:   Fri Sep 29 21:20:56 2023 +0700
+
+    Merge pull request #25 from curagan/pencarian-page-fix
+    
+    fix: redirect non-user to login page
+
+[33mcommit 03c35ccb5eec583efa744fe754023a1cc2bc5dd1[m
+Author: Derian Melvin <derianmelvin88@gmail.com>
+Date:   Fri Sep 29 21:19:38 2023 +0700
+
+    fix: redirect non-user to login page
+
+[33mcommit f35c0a31f2a9260f3b87649ca8b1b37546313a9c[m
+Merge: 55e5d1e 1598891
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Fri Sep 29 20:42:09 2023 +0700
+
+    Merge branch 'main' of https://github.com/curagan/curagan-frontend into profile-page
+
+[33mcommit 159889175dee7668c1c0521f8d7532c1b6f411a3[m
+Merge: bed7de5 aafff4d
+Author: Indra Setiadhi P <60643181+indrasetiadhi4@users.noreply.github.com>
+Date:   Fri Sep 29 20:40:33 2023 +0700
+
+    Merge pull request #22 from curagan/profile-page
+    
+    feat(akun/edit): add change password functionality
+
+[33mcommit bed7de5c3460789cae223371ac18e126683acc50[m
+Merge: de14adb 1473eec
+Author: DoriMoll <53027082+DerianMelvin@users.noreply.github.com>
+Date:   Fri Sep 29 20:37:51 2023 +0700
+
+    Merge pull request #24 from curagan/general-fix
+    
+    Small fixes
+
+[33mcommit 1473eec65d872e0a96ad345c1b1edf3456f6aa39[m
+Author: Derian Melvin <derianmelvin88@gmail.com>
+Date:   Fri Sep 29 20:33:34 2023 +0700
+
+    fix: display year on schedule
+
+[33mcommit bac92983372194e17a514bf8973065982ba6fe0c[m
+Author: Derian Melvin <derianmelvin88@gmail.com>
+Date:   Fri Sep 29 20:25:15 2023 +0700
+
+    style: fix uneven padding on status
+
+[33mcommit 55e5d1e7511e6745261bb3dab89e383e0053ed1d[m
+Merge: aafff4d de14adb
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Fri Sep 29 20:22:04 2023 +0700
+
+    Merge branch 'main' of https://github.com/curagan/curagan-frontend into profile-page
+
+[33mcommit de14adbe0b721a0085133417b27da2e5f2666c61[m
+Merge: 9267449 188643f
+Author: DoriMoll <53027082+DerianMelvin@users.noreply.github.com>
+Date:   Fri Sep 29 20:18:30 2023 +0700
+
+    Merge pull request #23 from curagan/update-riwayat
+    
+    Update riwayat
+
+[33mcommit 188643fd7087e2767e3eaeeaf1bec968debce709[m
+Author: Derian Melvin <derianmelvin88@gmail.com>
+Date:   Fri Sep 29 20:13:23 2023 +0700
+
+    fix: redirect non-user to login page
+    
+    - improve loading component styling
+
+[33mcommit 52544ae0da19c40f118711e6391fa9de8b69e6a4[m
+Author: Derian Melvin <derianmelvin88@gmail.com>
+Date:   Fri Sep 29 20:11:04 2023 +0700
+
+    fix: disable submit button after clicking once
+
+[33mcommit 167a820f44fd509f1bd0db87a28e6b5e67ac6daa[m
+Author: Derian Melvin <derianmelvin88@gmail.com>
+Date:   Fri Sep 29 20:08:03 2023 +0700
+
+    fix: update 'riwayat' page
+
+[33mcommit aafff4d59b8688e1594eb4bb7385dd26729badc6[m
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Fri Sep 29 20:05:08 2023 +0700
+
+    feat(akun/edit): add change password functionality
+    - add form for change password
+    - function for update password using API
+    - note still not handle failed change password
+
+[33mcommit 926744936e70f8aa82dc491ed77b59e5c81ed06a[m
+Merge: 3dc27ef 2922dea
+Author: Immanuel Arya <71974522+aryaimmanuel@users.noreply.github.com>
+Date:   Fri Sep 29 18:46:52 2023 +0700
+
+    Merge pull request #20 from curagan/new-history
+    
+    feat: add history functionality for patient
+
+[33mcommit 2922deadc9abb5ea69939531733131da5c14f15f[m
+Author: aryaimmanuel <aryaimmanuel.acad@gmail.com>
+Date:   Fri Sep 29 18:42:48 2023 +0700
+
+    feat: add history functionality for patient
+
+[33mcommit 3dc27ef510b70081b833583ae11b64fe0ccc9bb0[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Fri Sep 29 19:08:11 2023 +0800
+
+    chore: ignore .env file and add styled-jsx dependency
+
+[33mcommit 8094201bdf24818932c26b4e47c3a8b60db47704[m
+Merge: b8a6bd8 d3c93bb
+Author: Indra Setiadhi P <60643181+indrasetiadhi4@users.noreply.github.com>
+Date:   Fri Sep 29 17:58:24 2023 +0700
+
+    Merge pull request #19 from curagan/profile-page
+    
+    feat(akun): add image uploader for update image
+
+[33mcommit d3c93bbf39891fde7170290b2feb13128fc247e7[m
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Fri Sep 29 17:43:16 2023 +0700
+
+    feat(akun): add image uploader for update image
+    - add image uploader component
+    - add funcitonality for update imageURL on submit form
+    - add env var
+
+[33mcommit b8a6bd858ae580ecc372964f79ce9a08e9e10083[m
+Merge: 3505a2c d90c6c6
+Author: Okky Anggoro <anggorookky@gmail.com>
+Date:   Fri Sep 29 15:40:09 2023 +0800
+
+    Merge pull request #18 from curagan/doc-appointment
+    
+    feat:Jadwal
+
+[33mcommit d90c6c63724322762298572ed50d8aa317c5b493[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Fri Sep 29 15:37:47 2023 +0800
+
+    fix: fix doctor specialization text display
+
+[33mcommit 18faa48ca6e343b4830e032188385b2099bc522d[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Fri Sep 29 15:28:12 2023 +0800
+
+    feat(menu): add doctorid to get doctorid from localstorage
+
+[33mcommit 2b3d74a4a5cf1600c1df99b380f36aeeb682862d[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Fri Sep 29 15:12:07 2023 +0800
+
+    feat(jadwal): add layout wrapper to jadwal page
+
+[33mcommit 795da2cb9ca9468ccd691c96134cc413013185ab[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Fri Sep 29 13:59:32 2023 +0800
+
+    feat: add month and year selection functionality
+
+[33mcommit 079fc13c38ff4384d6a473c62902a97eb4db284a[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Fri Sep 29 11:33:56 2023 +0800
+
+    fix(calendarcomponent): fix date validation and display on form and schedule list
+
+[33mcommit c4cfc17d6cf84743b231389c08d9818d4e349160[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Fri Sep 29 07:17:26 2023 +0800
+
+    fix(jadwal): fix handleformsubmit to correctly update schedule
+
+[33mcommit 72482fa9c5799cedb3585bfce6915b00cb1b0980[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Fri Sep 29 05:56:56 2023 +0800
+
+    refactor: simplify form submission process and remove unnecessary console logs
+
+[33mcommit 3505a2c254904566b89d50c255e6fe696db38333[m
+Merge: 1b34bf4 3d2597f
+Author: DoriMoll <53027082+DerianMelvin@users.noreply.github.com>
+Date:   Fri Sep 29 00:41:03 2023 +0700
+
+    Merge pull request #17 from curagan/appointments-page
+    
+    Appointments page
+
+[33mcommit 3d2597f505de5f7b7cb51fad3ed00da558b8c6bc[m
+Author: Derian Melvin <derianmelvin88@gmail.com>
+Date:   Fri Sep 29 00:38:32 2023 +0700
+
+    style: update button bg color
+
+[33mcommit be7e6c7cc911327516d80221b8a6e3e86a0afd14[m
+Author: Derian Melvin <derianmelvin88@gmail.com>
+Date:   Fri Sep 29 00:36:58 2023 +0700
+
+    feat: create appointment page
+    
+    - create dynamic route appointment page
+    - create component AppointmentConfirmation
+    - create component AppointmentSuccessful
+    - create component DoctorAppointmentCard
+    - create component DoctorScheduleCard
+    - create component LoadingCard
+    - import icon appointment-success.png
+    - update lib ApiLinks
+
+[33mcommit 901c30e9f2cf973f852e1040536249612411f7a1[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Thu Sep 28 22:25:13 2023 +0800
+
+    feat(jadwal): add calendarcomponent and usefetch hooks
+
+[33mcommit 1b34bf471ab17a5e50ffdce5bacc0287695eafbf[m
+Merge: b14c31a ac7a569
+Author: DoriMoll <53027082+DerianMelvin@users.noreply.github.com>
+Date:   Thu Sep 28 19:28:55 2023 +0700
+
+    Merge pull request #16 from curagan/update-icons
+    
+    Update icons
+
+[33mcommit ac7a569b0f305ab4121ee20a6663ddddedfc1164[m
+Author: Derian Melvin <derianmelvin88@gmail.com>
+Date:   Thu Sep 28 19:25:25 2023 +0700
+
+    fix: add link to layout logo
+
+[33mcommit 7dc0a8315834ca5cc0bca9eb017a53ee568f0a6c[m
+Author: Derian Melvin <derianmelvin88@gmail.com>
+Date:   Thu Sep 28 19:24:06 2023 +0700
+
+    feat: update placeholder icons
+    
+    - import icons to public\icons
+    - update component DoctorList
+    - update component InformationCard
+    - update component DoctorCard
+
+[33mcommit b14c31ab3a5ebe1feceb80c08a0cd0bf549f75e0[m
+Merge: 3a6a8ac 0a972cb
+Author: Indra Setiadhi P <60643181+indrasetiadhi4@users.noreply.github.com>
+Date:   Thu Sep 28 18:41:18 2023 +0700
+
+    Merge pull request #15 from curagan/profile-page
+    
+    Profile page
+
+[33mcommit 0a972cb93a06f02924a33c050182ce41b9be7866[m
+Merge: 318c529 3a6a8ac
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Thu Sep 28 18:35:49 2023 +0700
+
+    fix: fix conflict on 'LayoutMenu'
+
+[33mcommit 318c5296bceeb904e276bbe780a0f99d76921ec6[m
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Thu Sep 28 18:26:47 2023 +0700
+
+    feat(akun): update hooks for fetching user data
+    - add conditional fetching based on role
+    - add hospital data on akun page
+
+[33mcommit 3a6a8ace9716277f8acaa65cbb8da8b7ad43e0a8[m
+Merge: 902e03d 1258001
+Author: DoriMoll <53027082+DerianMelvin@users.noreply.github.com>
+Date:   Thu Sep 28 15:29:23 2023 +0700
+
+    Merge pull request #14 from curagan/update-pencarian
+    
+    Update pencarian page
+
+[33mcommit 12580019efbd53b6ba6481a218c03ba0282eac05[m
+Author: Derian Melvin <derianmelvin88@gmail.com>
+Date:   Thu Sep 28 15:22:30 2023 +0700
+
+    fix: adjust logout handler
+
+[33mcommit e7e00982442cd78ab803c0706b3acec7248f5b05[m
+Author: Derian Melvin <derianmelvin88@gmail.com>
+Date:   Thu Sep 28 15:21:46 2023 +0700
+
+    fix: 'beranda' page fetch functions
+    
+    - adjust component HeroCard content
+
+[33mcommit c8f620cb3ba2a3e4be4c0e3f6febbc84c02692a9[m
+Author: Derian Melvin <derianmelvin88@gmail.com>
+Date:   Thu Sep 28 15:19:59 2023 +0700
+
+    feat: update 'pencarian' page search feature
+    
+    - create dynamic 'pencarian' page for search query
+    - add 'pencarian' page data fetch functions with SWR
+    - update component SearchBar
+
+[33mcommit 53f31a03a6dda68258b7e030581bd7df0832d65e[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Mon Sep 25 13:26:44 2023 +0800
+
+    style: remove unnecessary blank lines and add exclamation marks to hello world
+
+[33mcommit 495aa181333e6b8034e2329feb3564af72b4dfcd[m
+Author: anggr <anggorookky@gmail.com>
+Date:   Mon Sep 25 13:14:08 2023 +0800
+
+    style: fix single quotes and add semicolons
+
+[33mcommit 902e03d13077609073f5d70229464b60738fbd11[m
+Merge: 499503f 6c5ab61
+Author: Indra Setiadhi P <60643181+indrasetiadhi4@users.noreply.github.com>
+Date:   Wed Sep 27 20:47:25 2023 +0700
+
+    Merge pull request #13 from curagan/profile-page
+    
+     Profile page
+
+[33mcommit 6c5ab61189690d9e4019a40be7dbcf009daf8715[m
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Wed Sep 27 20:44:26 2023 +0700
+
+    style: remove console log
+
+[33mcommit 324db403e189238c4f10103d45b02ce407384f9d[m
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Wed Sep 27 20:33:16 2023 +0700
+
+    feat(akun): update hooks for get user data
+    - update useUser hooks
+    - update set local storage when login
+    - update edit profile component
+
+[33mcommit 05adfdfa84556d2428aa1a534ccb5454a96f1d5e[m
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Wed Sep 27 18:22:30 2023 +0700
+
+    feat(akun): update '/akun/edit' page
+    - change button styling
+    - add form for change password
+
+[33mcommit 1cd2a7511e25278d3a7b66caf37fa18ffc117d52[m
+Author: indrasetiadhi <indrasetiadhi4@gmail.com>
+Date:   Wed Sep 27 17:33:17 2023 +0700
+
+    feat(akun): add '/akun/edit' page
+    - create component for edit akun
+    - add '/akun/edit' page
+    - update useUser hooks
+
+[33mcommit 499503f5613a556d39984255b6617e12614cbf7e[m
+Merge: edddce7 432738e
+Author: DoriMoll <53027082+DerianMelvin@users.noreply.github.com>
+Date:   Wed Sep 27 15:45:52 2023 +0700
+
+    Merge pull request #12 from curagan/layout-route-management
+    
+    Display menu based on user role
